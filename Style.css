@@ -1,0 +1,116 @@
+body{
+    background-image: url(car23.jpg);
+    -webkit-background-size: cover:
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+a{
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: large;
+font-style: italic;
+color: rgb(7, 5, 5);
+border-radius: inherit;
+}
+.a:hover:{
+    color: yellow;
+
+}
+.menu-area{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    background: transparent;
+    color: #fff;
+    padding: 1em;
+}
+.menu-area > ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex: 3;
+}
+.menu-area li{
+    margin-right: 1em;
+}
+ul li:nth-child(1){
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: baloo;
+}
+ul li:nth-child(2), ul li:nth-child(3), ul li:nth-child(4),{
+    padding: 10px 0;
+    font-family: poppins;
+}
+.menu-area > form{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-end;
+   flex: 1;
+}
+.menu-area input{
+    flex: 1; 
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding: o 25px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fffafa;
+}
+.menu-area button{
+    background: transparent;
+    border: 0;
+    border-radius: 50px;
+    padding: 0 30px;
+    margin-left: .3em;
+    border: 1px solid #707070;
+    color: #fff;
+}
+.banner-text{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: big john;
+    text-align: center;
+}
+.banner-text h2{
+    font-size: 50px;
+    margin: 0;
+}
+/*responsive css*/
+@media screen and (max-width: 575px){
+    .menu-area{
+        flex-direction: column;
+    }
+    .menu-area ul{
+        flex-direction: row;
+        margin-bottom: 1em;
+    }
+    .menu-area input{
+        padding: 12px 25px;
+    }
+    .menu-area li{
+        margin-right: 0.7em;
+    }
+    .banner-text h2{
+        font-size: 40px;
+    }
+}
+P{
+    font-size: xx-large;
+    color:rgb(255, 255, 255);
+}
